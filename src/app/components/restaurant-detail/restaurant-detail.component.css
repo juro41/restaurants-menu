@@ -1,0 +1,88 @@
+ul {
+  list-style-type: none;
+}
+
+h2 {
+  width: 100%;
+  text-align: center;
+  font-size: 35px;
+  font-family: Roboto, Helvetica Neue, sans-serif;
+  font-weight: 200;
+  margin: 10px;
+}
+
+h3 {
+  font-family: Roboto, Helvetica Neue, sans-serif;
+}
+
+.mat-figure {
+  display: inline !important;
+}
+
+@media(min-width:640px) {
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .box {
+    width: 47%;
+  }
+}
+
+.box {
+  box-shadow: 0 3px 1px -2px rgba(0, 0, 0, .2), 0 2px 2px 0 rgba(0, 0, 0, .14), 0 1px 5px 0 rgba(0, 0, 0, .12);
+  margin: 5px;
+}
+
+.number {
+  width: 5%;
+}
+
+.meal {
+  width: 75%
+}
+
+.price {
+  width: 15%;
+}
+
+.currency {
+  width: 5%;
+}
+
+table {
+  width: 100%;
+  font-family: Roboto, Helvetica Neue, sans-serif;
+  padding: 10px;
+}
+
+h3 {
+  font-family: Roboto, Helvetica Neue, sans-serif;
+  margin-right: 10px;
+}
+
+h3,
+.mat-input-element {
+  font-weight: 300;
+  font-size: 20px;
+}
+
+.week-paginator {
+  margin: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.arrow-button {
+  margin: 10px;
+}
+
+.title {
+  margin: auto;
+  padding: 20px;
+  background: teal;
+  color: white;
+}

@@ -1,0 +1,54 @@
+<div class="admin-countainer">
+  <div class="logout">
+    <button mat-button class="logout-btn" (click)="logout()">Odhlásit užívatele</button>
+  </div>
+  <div class="menu-builder-container">
+    <mat-form-field>
+      <mat-select placeholder="Restaurace" [(ngModel)]="menu.restaurantId" (ngModelChange)="onRestaurantChange()" name="restaurant">
+        <mat-option *ngFor="let restaurant of restaurants" [value]="restaurant.id">
+          {{ restaurant.name }}
+        </mat-option>
+      </mat-select>
+    </mat-form-field>
+
+    <table class="date-picker-container">
+      <tr>
+        <td width="90%">
+          <mat-form-field>
+            <input class="date-picker" [(ngModel)]="date" matInput [matDatepicker]="picker" (dateChange)="onDateChange()" placeholder="Vyberte datum">
+            <p class="date">{{localDateString}}</p>
+            <mat-datepicker touchUi="true" #picker></mat-datepicker>
+          </mat-form-field>
+        </td>
+        <td width="10%">
+          <button class="open-calendar-btn" mat-raised-button (click)="picker.open()">Otevřít</button>
+        </td>
+      </tr>
+    </table>
+
+    <table *ngFor="let meal of menu.meals; let i = index;">
+      <tr>
+        <td class="menu-input">
+          <mat-form-field>
+            <input [(ngModel)]="meal.name" matInput placeholder="Jídlo {{i+1}}" name="meal_{{i}}">
+          </mat-form-field>
+        </td>
+        <td class="price-input">
+          <mat-form-field>
+            <input [(ngModel)]="meal.price" matInput placeholder="Cena v Kč" name="price_{{i}}">
+          </mat-form-field>
+        </td>
+        <td class="delete-btn">
+          <button type="button" mat-icon-button color="warn" (click)="removeMeal(i)">
+            <i class="material-icons md-48">delete_forever</i>
+          </button>
+        </td>
+      </tr>
+    </table>
+    <div class="button-container">
+      <button [disabled]="!menu.restaurantId.length" type="button" mat-raised-button (click)="addMeal()">
+        <i class="material-icons md-18">add</i>Přidat jídlo</button>
+      <button [disabled]="!menu.restaurantId.length" mat-raised-button class="save-btn" color="warn" (click)="save()">Uložit změny</button>
+    </div>
+  </div>
+</div>

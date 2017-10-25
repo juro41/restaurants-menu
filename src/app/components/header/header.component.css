@@ -1,0 +1,16 @@
+.spacer {
+  flex: 1 1 auto;
+}
+
+.mat-button {
+  font-family: Roboto, Helvetica Neue, sans-serif;
+  font-size: 25px;
+  font-weight: 200
+}
+
+@media (max-width: 460px) {
+  .admin-btn, .home-btn {
+    font-size: 18px;
+    padding: 0px;
+  }
+}

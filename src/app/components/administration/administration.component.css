@@ -1,0 +1,59 @@
+
+.menu-builder-container {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 10px;
+}
+
+.menu-builder-container>* {
+  width: 100%;
+}
+
+.menu-input {
+  width: 75%;
+}
+
+.price-input {
+  width: 20%;
+}
+
+.delete-btn {
+  width: 5%;
+  text-align: center;
+  vertical-align: initial;
+}
+
+mat-form-field {
+  width: 100%;
+}
+
+.logout {
+  width: 100%;
+  text-align: right;
+}
+
+.logout-btn {
+  border-radius: initial;
+  background: #3f51b5;
+  color: #ffffff;
+  font-weight: 300;
+  font-size: 20px;
+}
+
+.save-btn {
+  float: right;
+  background: lightseagreen;
+}
+
+.date-picker {
+  display: none;
+}
+
+.date {
+  margin: auto;
+}
+
+.open-calendar-btn {
+  margin: 5px;
+  width: 100%
+}

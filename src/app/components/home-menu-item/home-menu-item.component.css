@@ -1,0 +1,81 @@
+@media(min-width:640px) {
+  .menu-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .box {
+    width: 47%;
+  }
+}
+
+.box {
+  box-shadow: 0 3px 1px -2px rgba(0, 0, 0, .2), 0 2px 2px 0 rgba(0, 0, 0, .14), 0 1px 5px 0 rgba(0, 0, 0, .12);
+  margin: 5px;
+}
+
+.number {
+  width: 5%;
+}
+
+.meal {
+  width: 75%
+}
+
+.price {
+  width: 15%;
+}
+
+.currency {
+  width: 5%;
+}
+
+table {
+  width: 100%;
+  font-family: Roboto, Helvetica Neue, sans-serif;
+  padding: 10px;
+}
+
+.home-header {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+h3,
+.date-picker,
+.date {
+  font-weight: 300;
+  font-size: 20px;
+  font-family: Roboto, Helvetica Neue, sans-serif;
+}
+
+.day {
+  padding-right: 10px;
+}
+
+.title {
+  margin: auto;
+  background: teal;
+  color: white;
+  padding: 20px;
+}
+
+.title:hover {
+  background: cadetblue;
+}
+
+.title-wrap {
+  text-decoration: none;
+}
+
+.date-picker {
+  display: none;
+}
+
+.date {
+  margin: auto;
+}
+
+.open-calendar-btn {
+  margin: 20px 5px;
+}

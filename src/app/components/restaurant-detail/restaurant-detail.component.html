@@ -1,0 +1,39 @@
+<div class="detail-container">
+  <h2>{{restaurantName}}</h2>
+  <div class="week-paginator">
+    <button class="arrow-button" mat-raised-button color="primary" (click)="getPreviousWeek()">
+      <i class="material-icons md-48">chevron_left</i>
+    </button>
+    <h3>Týden od {{mondayDate}} do {{sundayDate}}</h3>
+    <button class="arrow-button" mat-raised-button color="primary" (click)="getNextWeek()">
+      <i class="material-icons md-48">chevron_right</i>
+    </button>
+  </div>
+  <div class="container">
+    <ng-container *ngFor="let dayMenu of weekMenu; let i = index">
+      <ng-container *ngIf="dayMenu.meals.length">
+        <div class="box">
+          <h3 class="title">{{daysInWeek[i]}} {{dayMenu.date.toLocaleDateString()}}</h3>
+          <table>
+            <ng-container *ngFor="let meal of dayMenu.meals; let i = index;">
+              <tr>
+                <td class="number">
+                  <p>{{i+1}}</p>
+                </td>
+                <td class="meal">
+                  {{meal.name}}
+                </td>
+                <td class="price">
+                  {{meal.price}}
+                </td>
+                <td class="currency">
+                  Kč
+                </td>
+              </tr>
+            </ng-container>
+          </table>
+        </div>
+      </ng-container>
+    </ng-container>
+  </div>
+</div>

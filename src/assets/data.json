@@ -1,0 +1,227 @@
+{
+  "restaurants": [{
+      "id": "0",
+      "name": "Bamboo club"
+    },
+    {
+      "id": "1",
+      "name": "Koliba U Černého medvěda"
+    },
+    {
+      "id": "2",
+      "name": "Kozlovna"
+    },
+    {
+      "id": "3",
+      "name": "DolceVita"
+    },
+    {
+      "id": "4",
+      "name": "Prašád"
+    },
+    {
+      "id": "5",
+      "name": "Potrefená Husa"
+    },
+    {
+      "id": "6",
+      "name": "Pranaya"
+    },
+    {
+      "id": "7",
+      "name": "U Kovárny"
+    },
+    {
+      "id": "8",
+      "name": "Fit Fodie"
+    },
+    {
+      "id": "9",
+      "name": "Mr. Grill"
+    }
+  ],
+  "days": [{
+      "date": "1508709600000",
+      "menus": [{
+        "restaurantId": "0",
+        "restaurantName": "Bamboo club",
+        "meals": [{
+          "name": "Slepičí s masem a nudlemi",
+          "price": "25,60"
+        }, {
+          "name": "Kuřecí stehno na houbách, dušená rýže",
+          "price": "25,60"
+        }, {
+          "name": "Chilli con carne, dušená rýže",
+          "price": "25,60"
+        }]
+      }]
+    },
+    {
+      "date": "1508796000000",
+      "menus": [{
+          "restaurantId": "0",
+          "restaurantName": "Bamboo club",
+          "meals": [{
+            "name": "Kuřecí plátek s nivou, smažené hranolky, zeleninová ozdoba",
+            "price": "25,60"
+          }, {
+            "name": "Ryba",
+            "price": "25,60"
+          }, {
+            "name": "Ryba",
+            "price": "25,60"
+          }]
+        },
+        {
+          "restaurantId": "1",
+          "restaurantName": "Kozlovna",
+          "meals": [{
+            "name": "Ryba",
+            "price": "25,60"
+          }, {
+            "name": "Rizek",
+            "price": "25,60"
+          }, {
+            "name": "Ryba",
+            "price": "25,60"
+          }]
+        },
+        {
+          "restaurantId": "5",
+          "restaurantName": "Potrefená Husa",
+          "meals": [{
+            "name": "Ryba",
+            "price": "25,60"
+          }, {
+            "name": "Rizek",
+            "price": "25,60"
+          }, {
+            "name": "Smažený sýr, smažené hranolky, zeleninová ozdoba",
+            "price": "25,60"
+          }]
+        },
+        {
+          "restaurantId": "8",
+          "restaurantName": "Fit Fodie",
+          "meals": [{
+            "name": "Ryba",
+            "price": "125,60"
+          }, {
+            "name": "Rizek",
+            "price": "103,60"
+          }, {
+            "name": "Kura",
+            "price": "90,60"
+          }]
+        }
+      ]
+    },
+    {
+      "date": "1509228000000",
+      "menus": [{
+        "restaurantId": "0",
+        "restaurantName": "Bamboo club",
+        "meals": [{
+          "name": "Ryba",
+          "price": "25,60"
+        }, {
+          "name": "Ryba",
+          "price": "25,60"
+        }, {
+          "name": "Ryba",
+          "price": "25,60"
+        }]
+      }]
+    },
+    {
+      "date": 1508882400000,
+      "menus": [{
+          "restaurantId": "0",
+          "restaurantName": "Bamboo club",
+          "meals": [{
+            "name": "Pečené kachní stehýnko s červeným vinným zelím a bramborovými knedlíky",
+            "price": "119"
+          }, {
+            "name": "Fettuccine se smetanovým špenátem, červenou cibulkou, česnekem a kousky lososem",
+            "price": "100"
+          }, {
+            "name": "Drůbeží rizoto se zeleninou sypané sýrem a kyselou okurkou",
+            "price": "98"
+          }]
+        },
+        {
+          "restaurantId": "1",
+          "restaurantName": "Koliba U Černého medvěda",
+          "meals": [{
+            "name": "Pečené kuřecí závitky plněné šunkou, žampiony a sýrem podávané s dušenou rýží",
+            "price": "120"
+          }, {
+            "name": " Vepřový gulášek s červenou kápií, cibulkou a čerstvým chlebem",
+            "price": "99"
+          }, {
+            "name": "Vepřová panenka Wellington na restované zelenině julienne s máslovou bramborovou kaší a pepřovou omáčkou",
+            "price": "134"
+          }, {
+            "name": "Grilované kuřecí prsíčko špikované slaninou s bramborovými krokety a domácí tatarskou omáčkou",
+            "price": "140"
+          }]
+        },
+        {
+          "restaurantId": "3",
+          "restaurantName": "DolceVita",
+          "meals": [{
+            "name": "Sikulské žebírko s domácím houskovým knedlíkem",
+            "price": "102"
+          }, {
+            "name": "Bramborové halušky s brynzou a opečeným špekem",
+            "price": "99"
+          }]
+        }
+      ]
+    },
+    {
+      "date": 1508968800000,
+      "menus": [{
+        "restaurantId": "4",
+        "restaurantName": "Prašád",
+        "meals": [{
+          "name": "Pečená sójová roláda   , dušené cukety se sušenými rajčaty , rýže basmati",
+          "price": "120"
+        }, {
+          "name": "Grilované tofu  , pečené brambory , zakysaná smetana",
+          "price": "100"
+        }, {
+          "name": "Segedínský guláš   , domácí houskový knedlík",
+          "price": "112"
+        }]
+      }, {
+        "restaurantId": "0",
+        "restaurantName": "Bamboo club",
+        "meals": [{
+          "name": "Sikulské žebírko s domácím houskovým knedlíkem",
+          "price": "102"
+        }, {
+          "name": "Bramborové halušky s brynzou a opečeným špekem",
+          "price": "99"
+        }]
+      }]
+    },
+    {
+      "date": 1509055200000,
+      "menus": [{
+        "restaurantId": "0",
+        "restaurantName": "Bamboo club",
+        "meals": [{
+          "name": "Hovězí Burger a julienne hranolky, dresing",
+          "price": "85"
+        }]
+      }]
+    }
+  ],
+  "users": [{
+    "id": "0",
+    "userName": "admin",
+    "password": "admin"
+  }]
+}

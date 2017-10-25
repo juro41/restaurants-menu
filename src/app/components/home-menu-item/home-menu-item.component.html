@@ -1,0 +1,38 @@
+<div class="home-container">
+  <div class="home-header">
+    <h3 class="day">Obědové menu: {{dayName}} </h3>
+    <mat-form-field>
+      <input class="date-picker" [(ngModel)]="date" matInput [matDatepicker]="picker" (dateChange)="onDateChange()" placeholder="Vyberte datum">
+      <p class="date">{{localDateString}}</p>
+      <mat-datepicker touchUi="true" #picker></mat-datepicker>
+    </mat-form-field>
+    <button class="open-calendar-btn" mat-raised-button (click)="picker.open()">Otevřít</button>
+  </div>
+  <div class="menu-container">
+    <ng-container *ngFor="let menu of menus">
+      <div class="box">
+        <a [routerLink]="['/restaurant', menu.restaurantId]" routerLinkActive="active" class="title-wrap">
+          <h3 class="title">{{menu.restaurantName}}</h3>
+        </a>
+        <table>
+          <ng-container *ngFor="let meal of menu.meals; let i = index;">
+            <tr>
+              <td class="number">
+                <p>{{i+1}}</p>
+              </td>
+              <td class="meal">
+                {{meal.name}}
+              </td>
+              <td class="price">
+                {{meal.price}}
+              </td>
+              <td class="currency">
+                Kč
+              </td>
+            </tr>
+          </ng-container>
+        </table>
+      </div>
+    </ng-container>
+  </div>
+</div>
