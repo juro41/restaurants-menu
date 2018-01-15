@@ -1,11 +1,3 @@
-/*
- * @Author: mikey.zhaopeng
- * @Date: 2017-10-24 16:14:39
- * @Last Modified by: mikey.zhaopeng
- * @Last Modified time: 2017-10-24 20:59:07
- */
-
-
 import { Component, OnInit } from '@angular/core';
 import { AsyncPipe } from '@angular/common';
 import { DateAdapter, NativeDateAdapter } from '@angular/material';
