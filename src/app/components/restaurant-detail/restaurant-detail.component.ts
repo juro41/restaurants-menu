@@ -53,3 +53,4 @@ export class RestaurantDetailComponent implements OnInit {
         this.sundayDate = this.weekMenu[6].date.toLocaleDateString();
     }
 }
+//testovaci komentar
