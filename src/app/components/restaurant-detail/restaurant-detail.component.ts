@@ -55,3 +55,4 @@ export class RestaurantDetailComponent implements OnInit {
 }
 //testovaci komentar
 // dalsi testovaci komentar
+// komentar napisany v mastery
